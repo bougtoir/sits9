@@ -14,6 +14,9 @@ contour, tension profile, and rhythmic character.
 
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from sits9.core import (
     Anchor,
     Card,

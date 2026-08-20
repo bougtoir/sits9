@@ -19,6 +19,9 @@ We encode each chord as an SITS9 Card with:
 
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from sits9.core import (
     Anchor,
     Card,
